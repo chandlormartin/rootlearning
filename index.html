@@ -5,13 +5,30 @@
   <head>                          <!-- info not actually seen in webpage. -->
     <title>Hello World!</title>   <!-- website name (name that appears in tab)-->
     <meta charset ="UTF-8">       <!-- meta tag is tag that has information. charset is an attribute that says what characters to use-->
+    <style>
+      h2
+      {
+        color: red;
+        font-size: 70px;
+        margin: 0px;
+        background-color: blue;
+        text-align: center;
+      }
+
+      p
+      {
+          color:#999;
+          background-color: rgb(0, 0, 0)
+      }
+    </style>
   </head>
 
   <body>                                           <!-- contains content that will be visiable inside website -->
-    <div>
+    <div>                                          <!-- is a container that hold content -->
       <h2>Latest posts</h2>                        <!-- contains content that will be visiable inside website -->
       <h3>this is were you can see new stuff</h3>
     </div>
+
     <section>
 
       <article>                                    <!--shows that content inside posts are related -->
@@ -19,10 +36,9 @@
           <p title = "This is content!" style="color:red;"> Hello World! </p> <!-- title is info that appears when hoveing over text. -->
         <h5>author name</h5>
       </article>
-
       <article>                           <!--shows that content inside posts are related -->
         <h4>post title</h4>
-          <p> This is <br> a break! </p>  <!-- <br> inserts a newline -->
+        <p> This is <br> a break! </p>  <!-- <br> inserts a newline -->
         <h5>author name</h5>
       </article>
     </section>
@@ -30,8 +46,17 @@
 </html>                     <!-- tells when html doc ends -->
 
 
- <!-- ATTRIBUTES -->
+ <!-- ATTRIBUTES
 
+ color: red;                      changes color of text to color from rgb
+ color: #999999;                  changes color of text using hex
+ color:#999                       if using hex and all the letters/numbers are the same, can just type the char 3 times instead
+ font-size: 70px;                 changes font size of texts with h2 tag
+ margin: 0px;                     set margin of space around text to 0
+ background-color: blue;          sets background of h2 text to blue
+ background-color: rgb(0, 0, 0)   sets background color using rgb sacle
+ text-align: center;              centers text
+-->
 
 <!-- HTAGS
 -->
